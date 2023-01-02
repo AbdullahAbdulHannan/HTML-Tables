@@ -1,0 +1,239 @@
+<html>
+     <head>
+         <title>Tables</title>
+     </head>
+     <body>
+         <h1>Nested Table</h1>
+     <table border="2">
+     <tr>
+     <th>Header Column 1</th>
+     <th>Header Column 2</th>
+     <th>Header Column 3</th>
+     <th>Header Column 4</th>
+     </tr>
+     <tr>
+     <td>Row 2 Item 1</td>
+     <td>Row 2 Item 2</td>
+     <th rowspan="2">Row 2:Nested Table 1<br/><br/>
+        <table border="2">
+        <tr>
+        <td> Row 1 Header</td>
+        <td> item</td>
+        </tr>
+        <tr>
+        <td>Row 2 Header</td>
+        <td>item</td>
+        </tr>
+        <tr>
+        <td>Row 3 Header</td>
+        <td>item</td></th>
+        </tr>
+        </table>
+        <td>Row 2-Item 4<br />A second line</td>
+        </tr>
+        <tr>
+        <th> Row 3 Nested Table 2
+       <br/><br/><table border="2">
+        <tr>
+        <td>Row 1 Header</td>
+       <td> item</td>
+        </tr>
+        <tr>
+        <td>Row 2 Header</td>
+        <td> item</td></th>
+        </tr>
+        </table>
+        <td> Row 3 item 2</td>
+        <td rowspan="2"> Row 3 item 3</td>
+        </tr>
+        <tr>
+        <td>Row 4-Item 1</td>
+        <td>Row 4-Item 2</td>
+        <td>Row 4-Item 3</td>
+        </tr>
+        <tr>
+        <td colspan="4">Row 5- last row of outer table</td>
+        </tr>
+        </table>
+        <br/><br/>
+        <hr/>
+        <br/><br/>
+        <h1>TIME TABLE</h1>
+        <table border="2">
+     <tr>
+        <td rowspan="3" width="50">Day</td>
+        <td colspan='8'><center>Seminar</center></td>
+     </tr>
+     <tr>
+        <td colspan='2'><center>Schedule</center></td>
+        <td rowspan="2" ><center>Topic</center></td>
+     </tr>
+     <tr>
+        <td>Begin </td>
+        <td>   End</td>
+        </tr>
+        <tr>
+        <td rowspan='2'>Monday</td>
+        <td rowspan='2'>8:00am</td>
+        <td rowspan='2'>5:00pm</td>
+        <td>Introduction to XML</td>
+       <tr> <td>Validity DTD Relax NG</td></tr>
+        </tr>
+        <tr>
+        <td rowspan='4'>Tuesday</td>
+        <tr><td>8:00am </td>
+        <td>11:00am</td>
+       <td><center>XPath</center></td>
+       </tr>      
+        <tr>
+        <td>11:00am</td>
+        <td>2:00pm</td>
+        <td rowspan="2">XSL Transformation</td>
+        </tr>
+        <tr>
+        <td>2:00pm</td>
+        <td>5:00pm</td>
+       </tr>
+        <tr>
+        <td>Wednesday</td>
+        <td>8:00am</td>
+        <td>12:00pm</td>
+       <td>XSL Formatting Objects</td>
+        </tr>
+        </table>
+        <br/><br/>
+        <hr/>
+        <br/><br/>
+        <h1> SCHEDULE</h1>
+        <table border="4">
+        <th colspan="6"><center>Athletics Day Time Table</center>
+      </th>
+        <tr> 
+        <th>Area</td>
+        <th>10:00am-11:00am</th>
+        <th>11:00am-12:00pm</th>
+        <th>12:00pm-01:00pm</th>
+        <th>01:00pm-02:00pm</th>
+        <th>02:00pm-03:00pm</th>
+        </tr>
+        <tr>
+        <td rowspan="2">Track</td>
+        <td>400m</td>
+        <td>200m</td>
+        <th rowspan="3">Lunch</th>
+        <td>800m</td>
+        <td>100m</td>
+        </tr>
+        <tr>
+        <td>Hurdles</td>
+        <td>1500m</td>
+        <td>Free</td>
+        <td>80m</td>
+        </tr>
+        <tr>
+        <th>Field</th>
+        <td>Discus</td>
+        <td>Javelin</td>
+        <td>Shot put</td>
+        <td>Hammer throw</td>
+        </table>
+        <br/><br/>
+        <hr/>
+        <br/><br/>
+        <h1>MARKSHEET</h1>
+        <table border="4" bgcolor="green">
+    <thead>
+    <tr>
+    <th colspan="9">MARKSHEET</th>
+    </tr>
+    </thead>
+     <tr>
+     <td rowspan='4'>S.no.</td>
+     <td rowspan='4'>Name</td>
+     <td colspan="6"><center>Subject</center></td>
+     <td rowspan="4">Total</td>
+     </tr>
+     <tr>
+     <td colspan="2">Science</td>
+     <td colspan="2">Social</td>
+     <td colspan="2">Computer</td>
+     </tr>
+     <tr>
+     <td colspan="6"><center>Marks</center</td>
+     </tr>
+     <tr>
+     <td>Internal</td>
+     <td>Final</td>
+     <td>Internal</td>
+     <td>Final</td>
+     <td>Internal</td>
+     <td>Final</td>
+     </tr>
+     <tr>
+     <td>1.</td>
+     <td>Bikash</td>
+     <td>10</td>
+     <td>12</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>50</td>
+     </tr>
+     <tr>
+     <td>2.</td>
+     <td>Bikesh</td>
+     <td>10</td>
+     <td>12</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>50</td>
+     </tr>
+     <tr>
+     <td>3.</td>
+     <td>Avinash</td>
+     <td>10</td>
+     <td>12</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>50</td>
+     </tr>
+     <tr>
+     <td>4.</td>
+     <td>Ram</td>
+     <td>10</td>
+     <td>12</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>50</td>
+     </tr>
+     <tr>
+     <td>5.</td>
+     <td>Abdul</td>
+     <td>10</td>
+     <td>12</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>43</td>
+     <td>50</td>
+     </tr>
+     <tr>
+     <th colspan="9"><center>Total</center></th>
+     </tr>
+      <tfoot>
+     <tr>
+     <td colspan="9"><center>Coded by:(:-Mr,Mack:-)</center></td>
+     </tr>
+     </tfoot>
+     </table>
+     </body>
+     </html>
+        
+        
